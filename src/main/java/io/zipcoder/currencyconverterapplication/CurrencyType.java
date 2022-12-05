@@ -14,6 +14,7 @@ public enum CurrencyType {
     UNIVERSAL_CURRENCY(1.0),
     YEN(231.68);
 
+    private static CurrencyType currencyType;
     private final double rate;
 
     CurrencyType(double rate) {
@@ -25,6 +26,7 @@ public enum CurrencyType {
     }
 
     public static CurrencyType getTypeOfCurrency(ConvertableCurrency currency) {
+
         return null;
     }
 }
